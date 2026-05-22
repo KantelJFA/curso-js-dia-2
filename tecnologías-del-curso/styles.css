@@ -1,0 +1,33 @@
+body {
+    background-color: beige;
+    font-family: Verdana, sans-serif;
+    color:darkseagreen;
+    margin: 0;
+}
+p {
+    font-family: Georgia, serif;
+    color: black;
+}
+.cabecera, footer {
+    background-color: chocolate;
+}
+.tarjetas {
+    display:flex;
+    gap: 1em;
+}
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0em;
+    margin: 0em;
+}
+.tarjeta {
+    margin: 1em;
+    background-color:cadetblue;
+    border: 4px solid chocolate;
+    border-radius: 1em;
+    flex-grow: 1;
+}
+.cabecera, .tarjeta, footer {
+    padding: 1em;
+}
